@@ -1,0 +1,18 @@
+.gallery {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.gallery__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.gallery__featured-item {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
